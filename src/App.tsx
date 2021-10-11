@@ -68,7 +68,11 @@ export default function App() {
         <p>Option 2 : direction</p>
         <select
           value={direction}
-          onChange={(e) => setDirection(e.target.value)}
+          onChange={(e) => {
+            const value = e.target.value as 'right' | 'bottom';
+            
+            setDirection(value)
+          }}
         >
           <option>bottom</option>
           <option>right</option>
