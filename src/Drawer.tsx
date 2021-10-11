@@ -86,6 +86,7 @@ export default function Drawer({
 
   return ReactDOM.createPortal(
     <StyledDrawer
+      onClick={handleClose}
       animation={animation}
       duration={duration}
       onTransitionEnd={handleTransitionEnd}
