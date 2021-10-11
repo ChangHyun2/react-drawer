@@ -13,3 +13,4 @@ Created with CodeSandbox
 - 백드랍 / 컨텐츠 / Drawer 분리하기 (z index 고려)
 - Drawer Toggler로 setOn할 때 `e.stopPropagation`이 필요할 때도 있음
 - onClose를 children에서 사용할 수 있도록 renderProp 패턴으로 
+- Modal extends Popup / Drawer extends Popup할 수 있게 Popup으로 만들기
